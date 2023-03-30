@@ -1,0 +1,36 @@
+package day2;
+// wap to ask details from user
+import java.util.Scanner;
+
+public class UserInput {
+
+	public static void main(String[] args) {
+		//Scanner   predefined class
+		// s = reference
+		// new Scanner ( object created )
+		//System.in --> input 
+		//System.out
+		//System.err 
+		Scanner s= new Scanner(System.in);
+		
+		System.out.println("enter integer ");
+		
+		int a= s.nextInt();
+		System.out.println("enter integer ");
+		int b= s.nextInt();
+		System.out.println("enter float ");
+		float c= s.nextFloat();
+		System.out.println("enter double ");
+		double d= s.nextDouble();
+		System.out.println("enter boolean ");
+		boolean e= s.nextBoolean();
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		
+	}
+
+}
