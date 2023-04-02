@@ -1,5 +1,5 @@
 package day2;
-// wap to ask details from user
+// wap to ask details from user for product
 import java.util.Scanner;
 
 public class UserInput {
